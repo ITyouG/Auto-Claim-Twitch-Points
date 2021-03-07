@@ -1,0 +1,28 @@
+{
+   "name":"Twitch - Auto Claim Points(忠誠點數)",
+   "description":"Automatically claim the bonus channel points when the option pops up in twitch chat.",
+   "version":"1.0.0",
+   "manifest_version":2,
+   "permissions":[
+      "http://www.twitch.tv/*",
+      "https://www.twitch.tv/*"
+   ],
+   "content_scripts":[
+      {
+         "matches":[
+            "http://www.twitch.tv/*",
+            "https://www.twitch.tv/*"
+         ],
+         "run_at": "document_idle",
+         "js": [
+            "injected.js"
+         ],
+         "all_frames" :true
+      }
+   ],
+   "icons":{
+      "32":"icon_32.png",
+      "48":"icon_48.png",
+      "64":"icon_64.png"
+   }
+}
