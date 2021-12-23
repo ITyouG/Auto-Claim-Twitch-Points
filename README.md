@@ -8,4 +8,4 @@ Simple Chrome Extension to auto click the button which claims Twitch channel poi
 ![](/screenshots/chat-container.png)
 
 
-Chrome Extension: https://chrome.google.com/webstore/detail/twitch-auto-claim-points忠/gjhoghnlnfbcacnbfagcbfdmjejebaje
+Chrome Extension: https://chrome.google.com/webstore/detail/gjhoghnlnfbcacnbfagcbfdmjejebaje
