@@ -1,4 +1,4 @@
-Auto Claim Twitch Bonus
+Auto Claim Twitch Points
 ========================
 
 Simple Chrome Extension to auto click the button which claims Twitch channel points.
