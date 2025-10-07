@@ -1,5 +1,4 @@
-
-  var selector = ".claimable-bonus__icon";
+var selector = '[data-test-selector="community-points-summary-bonus-button"]';
 
   var endTime = new Date(new Date().getTime());
   endTime.setMinutes(endTime.getMinutes() + 15);
@@ -21,7 +20,7 @@
       console.log(`%c${new Date().toTimeString().slice(0, 8)} 恭喜你獲得獎勵`, "color:Orange");
       endTime = new Date(new Date().getTime());
       endTime.setMinutes(endTime.getMinutes() + 15);
-  
+
     } else {
       console.log(`%c嘗試領獎，距離下一次領獎時間大約還有：${hr}時${min}分${sec}秒`, "color:Green");
     }
